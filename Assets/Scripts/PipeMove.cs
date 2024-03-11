@@ -6,9 +6,9 @@ public class PipeMove : MonoBehaviour
 {
     [SerializeField] float velocity = 2f;
     void Start()
-    {   
+    {
         //Borularý oluþtuktan 5 saniye sonra yok eder.
-        Destroy(gameObject,5);
+        Destroy(gameObject, 5);
     }
 
     void Update()

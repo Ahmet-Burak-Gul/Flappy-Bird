@@ -20,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -33,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -75,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -87,6 +90,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -99,6 +103,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -111,6 +116,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -1828,90 +1847,89 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      59894_24: 247663636
-      59894_5: -1598970333
-      59894_41: -707581003
-      59894_54: 18281653
-      59894_62: -1615502123
-      59894_2: -319664075
-      59894_8: -724404877
-      59894_51: 311746518
-      59894_65: -1760821873
-      59894_61: -2040447070
-      59894_48: 1652277698
+      59894_0: -1490794407
+      59894_1: 3633197
+      59894_10: 965691244
       59894_11: -1317060503
-      59894_23: 2142753052
-      59894_26: 1401164634
-      59894_44: -1039802875
-      59894_72: 583829731
-      59894_3: 181485647
-      59894_27: 39356079
+      59894_12: 1663304541
       59894_13: 1972367991
       59894_14: 217839236
-      59894_80: 44399742
-      59894_21: -194375087
-      59894_0: -1490794407
-      59894_20: -81616962
-      59894_74: 267877437
-      59894_42: -1428160588
-      59894_22: -1722145100
-      59894_7: -1810935344
-      59894_17: -369767444
-      59894_49: -1332563277
-      59894_29: -352931721
-      59894_35: 1540089132
-      59894_59: 849339984
-      59894_75: 2077650109
-      59894_78: -1291556273
-      59894_47: 446970406
-      59894_1: 3633197
-      59894_30: -282894635
-      59894_73: 804411392
-      59894_19: -1384594368
-      59894_34: 255550403
-      59894_71: -731992315
-      59894_63: -892939775
-      59894_38: -162881393
-      59894_16: 708633097
-      59894_60: 1334292589
-      59894_77: -709897065
-      59894_36: 8271727
-      59894_79: -1728711937
-      59894_4: 1384393826
-      59894_64: -1571109294
-      59894_28: 1698478234
-      59894_31: 1013309735
-      59894_9: -958370163
-      59894_33: 1466440803
-      59894_37: 1836631162
-      59894_58: -236602290
-      59894_68: 1757047553
-      59894_43: -1312034896
-      59894_39: -1823908665
-      59894_57: 272565434
-      59894_45: 141986408
-      59894_50: -2045861861
-      59894_70: 156240872
-      59894_40: -267014656
-      59894_52: 1760386102
-      59894_6: 35284827
       59894_15: -180367604
-      59894_25: 802405936
-      59894_32: 608083260
-      59894_46: -1411359469
-      59894_55: -770806444
-      59894_12: 1663304541
-      59894_53: -1628256220
-      59894_76: -462959457
-      59894_67: 599479818
-      59894_66: -431966299
+      59894_16: 708633097
+      59894_17: -369767444
       59894_18: 1262410228
-      59894_10: 965691244
-      59894_69: 683215850
+      59894_19: -1384594368
+      59894_2: -319664075
+      59894_20: -81616962
+      59894_21: -194375087
+      59894_22: -1722145100
+      59894_23: 2142753052
+      59894_24: 247663636
+      59894_25: 802405936
+      59894_26: 1401164634
+      59894_27: 39356079
+      59894_28: 1698478234
+      59894_29: -352931721
+      59894_3: 181485647
+      59894_30: -282894635
+      59894_31: 1013309735
+      59894_32: 608083260
+      59894_33: 1466440803
+      59894_34: 255550403
+      59894_35: 1540089132
+      59894_36: 8271727
+      59894_37: 1836631162
+      59894_38: -162881393
+      59894_39: -1823908665
+      59894_4: 1384393826
+      59894_40: -267014656
+      59894_41: -707581003
+      59894_42: -1428160588
+      59894_43: -1312034896
+      59894_44: -1039802875
+      59894_45: 141986408
+      59894_46: -1411359469
+      59894_47: 446970406
+      59894_48: 1652277698
+      59894_49: -1332563277
+      59894_5: -1598970333
+      59894_50: -2045861861
+      59894_51: 311746518
+      59894_52: 1760386102
+      59894_53: -1628256220
+      59894_54: 18281653
+      59894_55: -770806444
       59894_56: -818521493
-  spritePackingTag: 
+      59894_57: 272565434
+      59894_58: -236602290
+      59894_59: 849339984
+      59894_6: 35284827
+      59894_60: 1334292589
+      59894_61: -2040447070
+      59894_62: -1615502123
+      59894_63: -892939775
+      59894_64: -1571109294
+      59894_65: -1760821873
+      59894_66: -431966299
+      59894_67: 599479818
+      59894_68: 1757047553
+      59894_69: 683215850
+      59894_7: -1810935344
+      59894_70: 156240872
+      59894_71: -731992315
+      59894_72: 583829731
+      59894_73: 804411392
+      59894_74: 267877437
+      59894_75: 2077650109
+      59894_76: -462959457
+      59894_77: -709897065
+      59894_78: -1291556273
+      59894_79: -1728711937
+      59894_8: -724404877
+      59894_80: 44399742
+      59894_9: -958370163
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
