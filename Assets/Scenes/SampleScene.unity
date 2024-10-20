@@ -1324,7 +1324,7 @@ MonoBehaviour:
   isDead: 0
   velocity: 5
   gameManager: {fileID: 349651627}
-  deathArea: {fileID: 1764053470}
+  DeathScreen: {fileID: 1764053470}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

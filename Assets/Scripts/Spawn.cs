@@ -20,7 +20,7 @@ public class Spawn : MonoBehaviour
         {
             CreatePipe();
 
-            spawnInterval = Random.Range(1f, 2f);
+            spawnInterval = Random.Range(0.5f, 1.5f);
             yield return new WaitForSeconds(spawnInterval);
         }
     }

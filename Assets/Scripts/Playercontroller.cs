@@ -10,7 +10,7 @@ public class Playercontroller : MonoBehaviour
     private Rigidbody2D rb;
 
     [SerializeField] GameManager gameManager;
-    [SerializeField] GameObject deathArea;
+    [SerializeField] GameObject DeathScreen;
 
     void Start()
     {
@@ -31,7 +31,7 @@ public class Playercontroller : MonoBehaviour
         if (collision.gameObject.tag == "DeathArea")
         {
             Time.timeScale = 0;
-            deathArea.SetActive(true);
+            DeathScreen.SetActive(true);
         }
     }
 
